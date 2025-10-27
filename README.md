@@ -1,8 +1,3 @@
-##  Demo
-![](./MGFD-Stereo.png)
-
-
-
 ##  Environment 
 <pre>
 conda create -n MGFD-Stereo python=3.8
@@ -14,3 +9,6 @@ pip install scikit-image==0.21.0
 pip install opt-einsum==3.3.0
 pip install opencv-python==4.10.0.84
 </pre>
+
+##  Required Data
+[Middlebury ](https://vision.middlebury.edu/stereo/data/)
