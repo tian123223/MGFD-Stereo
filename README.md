@@ -15,3 +15,14 @@ pip install opencv-python==4.10.0.84
 - [KITTI](https://www.cvlibs.net/datasets/kitti/)
 - [ETH3D](https://www.eth3d.net/)
 - [Middlebury ](https://vision.middlebury.edu/stereo/data/)
+
+##  Training
+<pre>
+```bash
+# To train on SceneFlow, run
+python train_stereo.py --logdir ./checkpoints/sceneflow
+
+# To train on KITTI, run
+python train_stereo.py --restore_ckpt ./pretrained_models/kitti_train.pth --train_datasets kitti
+
+</pre>
